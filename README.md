@@ -34,12 +34,7 @@ This repo contains the source code and documentation powering [docs.hackerone.co
 
 ### Guidelines
 
-The documentation is divided into several sections with a different tone and purpose. If you plan to write more than a few sentences, you might find it helpful to get familiar with the [contributing guidelines](https://github.com/Hacker0x01/docs.hackerone.com/blob/master/contributing-guidelines.md) for the appropriate sections.
-
-### Create a branch
-
-1. `git checkout master` from any folder in your local `docs.hackerone.com` repository
-1. `git pull origin master` to ensure you have the latest main code
+The documentation is divided into several sections with a different tone and purpose. If you plan to write more than a few sentences, you might find it helpful to get sure you have the latest main code
 1. `git checkout -b the-name-of-my-branch` (replacing `the-name-of-my-branch` with a suitable name) to create a branch
 
 ### Make the change
@@ -48,12 +43,7 @@ The documentation is divided into several sections with a different tone and pur
 1. Save the files and check in the browser
   1. Changes to React components in `src` will hot-reload
   1. Changes to markdown files in `docs` will hot-reload
-  1. If working with plugins, you may need to remove the `.cache` directory and restart the server
-
-### Test the change
-
-1. If possible, test any visual changes in all latest versions of common browsers, on both desktop and mobile.
-
+  1. If working with plugins, you may need to remove the `.cache` directory and restart 
 ### Push it
 
 1. `git add -A && git commit -m "My message"` (replacing `My message` with a commit message, such as `Fixed header logo on Android`) to stage and commit your changes
